@@ -37,7 +37,7 @@ def summarize_medical_notes(text):
 
 
 # Streamlit UI Configuration
-st.set_page_config(page_title="Medical Note Summarizer", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="🧼 SOAPy", layout="wide", initial_sidebar_state="expanded")
 
 # Sidebar Navigation with Stylish Option Menu
 with st.sidebar:
