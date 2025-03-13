@@ -39,7 +39,7 @@ A Live Demo for it can be found [here](https://soapy-demo.streamlit.app/)
 
 4. **Run the app**:
     ```bash
-    streamlit run app.py
+    streamlit run main.py
     ```
 
 ## 📑 Example
