@@ -67,8 +67,3 @@ Fork the repo, make changes, and submit a pull request.
 ## 🔒 License
 
 MIT License. See [LICENSE](LICENSE).
-
----
-
-**SOAPy** makes medical documentation faster, clearer, and more efficient. Try it today!
-
