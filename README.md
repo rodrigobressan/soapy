@@ -35,7 +35,7 @@ A Live Demo for it can be found [here](https://soapy-demo.streamlit.app/)
     pip install -r requirements.txt
     ```
 
-3. **Set API Keys** (Deepgram & OpenAI GPT-4).
+3. **Set API Keys** (Deepgram & OpenAI GPT-4 related).
 
 4. **Run the app**:
     ```bash
