@@ -11,7 +11,7 @@ SOAPy automates the process of turning unstructured medical notes into organized
    - **A**ssessment: Diagnosis.
    - **P**lan: Treatment steps.
 
-## 🚀 Live Demo 🚀
+## 🌐 Live Demo
 
 A Live Demo for it can be found [here](https://soapy-demo.streamlit.app/)
 
