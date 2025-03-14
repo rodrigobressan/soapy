@@ -84,15 +84,15 @@ if page == "Upload & Summarize":
 
 # Example Page
 elif page == "Example":
-    st.title("📑 Example: Medical Note to SOAP Summary")
+    st.title("📑 Example: Medical Note after SOAPy")
 
     st.markdown("""
-        ### Sample Doctor’s Note:
         Below is an example of a **typical medical note** written by a physician.  
-        The AI will then **convert it into the SOAP format** for better readability and structure.
+        SOAPy will then **convert it into the SOAP format** for better readability and structure.
     """)
 
     sample_note = """
+    ###### 📋 Original Doctor’s Note:
     Patient is a 45-year-old male complaining of persistent headaches for the past two weeks. 
     Reports no history of migraines but mentions recent increased work stress. 
     No nausea or vomiting. Blood pressure today is 140/90 mmHg. 
@@ -101,9 +101,10 @@ elif page == "Example":
     and prescribed ibuprofen 400mg as needed. Follow-up in two weeks if symptoms persist.
     """
 
-    st.text_area("📋 Original Doctor’s Note:", sample_note, height=150)
+    st.markdown(sample_note)
 
     sample_soap = """
+    ###### 📝 SOAP Summary:
     **Subjective:** 45-year-old male with persistent headaches for two weeks. No history of migraines. Reports increased work stress. No associated nausea or vomiting.  
 
     **Objective:** Blood pressure: 140/90 mmHg. Neurological exam unremarkable. No signs of infection or trauma.  
@@ -113,10 +114,10 @@ elif page == "Example":
     **Plan:** Advise stress management techniques. Prescribe ibuprofen 400mg PRN. Follow-up in two weeks if symptoms persist.
     """
 
-    st.text_area("📝 SOAP Summary:", sample_soap, height=200)
+    st.markdown(sample_soap)
 
     st.markdown("""
-        **🔍 Why is SOAPy useful?**
+        ### Why is SOAPy useful?
         - Makes **medical notes clearer & structured** for doctors and nurses.  
         - Helps in **electronic health record (EHR) documentation**.  
         - Assists **students** in learning how to write SOAP notes effectively.  
@@ -135,7 +136,7 @@ elif page == "How It Works":
         - **🎙️ Speech-to-Text (Deepgram):** Converts audio notes into text.
         - **🧠 AI Summarization (GPT-4):** Extracts key medical details and structures them into **SOAP format**.
 
-        **Who benefits from this?**
+        ### Who benefits from this?
         - 🏥 **Doctors & Nurses**: Faster and more organized documentation.  
         - 📚 **Medical Students**: Learn how to write structured SOAP notes.  
         - 🚀 **HealthTech Innovators**: AI-powered documentation for modern healthcare.
